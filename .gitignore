@@ -6,6 +6,7 @@ public/
 src/client/lib
 
 .DS_Store
+npm-debug.log
 
 # Sass
 .sass-cache

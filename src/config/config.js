@@ -18,6 +18,8 @@ module.exports = function (app) {
 	app.use(methodOverride());
 	app.use(serveStatic(__dirname + '/../public'));
 
+	/* Comment out below config if using mongoDB -- make sure to set up DB env in README */
+
 	// if(!process.env.DB_USER || !process.env.DB_PASSWORD){
 	// 	console.log("Error: Database login credentials are not defined");
 	// 	process.exit();
