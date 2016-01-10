@@ -1,0 +1,11 @@
+{
+  "name": "docker-heroku-node",
+  "description": "",
+  "repository": "",
+  "keywords": [
+    "node",
+    "express",
+    "static"
+  ],
+  "image": "heroku/nodejs"
+}
