@@ -1,11 +1,14 @@
 {
   "name": "docker-heroku-node",
   "description": "",
-  "repository": "",
+  "repository": "https://github.com/dylanfischler/docker-heroku-node",
   "keywords": [
     "node",
     "express",
-    "static"
+    "grunt",
+    "docker",
+    "sass",
+    "bower"
   ],
   "image": "heroku/nodejs"
 }
