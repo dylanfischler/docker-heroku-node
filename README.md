@@ -1,9 +1,13 @@
 # docker-heroku-node
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+## Description
+This is a scaffolding for a Docker deployable Heroku image. The application itself is your typical Node.js + Express application. It comes with a Grunt build task wired for SASS compilation, Bower dependency injection and JS minification. 
+
 ## Installation
 `npm install` <br/>
-`gem install sass`
+`gem install sass` <br />
+`npm install grunt-cli bower -g`
 
 ## Setup
 #### Define your environment
